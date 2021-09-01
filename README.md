@@ -1,12 +1,5 @@
 # Training
 
-Created with CodeSandbox
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
-function squareSum(numbers){
-const tab = numbers;
-
-for (let i=0; i<tab.length; i++) {
-console.log("licznik pętli: " + i); //0, 1...
-console.log(tab[i]); //"Marcin", "Ania"...
-}
-}
+For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
